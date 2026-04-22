@@ -63,7 +63,7 @@ const App = () => {
                     }}
                     checked={t.completed}
                   />
-                  <span>{t.id}</span>
+                  {/* <span>{t.id}</span> */}
                   <span className={t.completed ? "crossed" : ""}>{t.text}</span>
                   <button onClick={() => deleteTodo(t.id)}>Delete</button>
                 </li>,
